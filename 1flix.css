@@ -1,0 +1,366 @@
+body{
+  font-family: Arial;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  flex-direction: column;
+background-color: #144184;
+}
+
+.top-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  color: white;
+  font-weight: 400;
+}
+
+.container-of-bar{
+margin-left: 10px;
+}
+
+.one-flix-2{
+  margin-top: 5px;
+
+}
+
+.one-flix{
+  width: 50px;
+  cursor: pointer;
+}
+
+.container-of-user{
+  margin-right: 10px;
+ 
+}
+
+.search-bar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar-1{
+  padding: 10px 350px 10px 10px;
+  border-radius: 5px;
+  border: none;
+  flex-shrink: 0;
+}
+
+.platform-container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+
+.platform{
+  display: flex;
+  justify-content: space-between;
+  
+
+  
+}
+
+.shares{
+  margin-right: 10px;
+}
+span{
+  display: block;
+}
+
+.twitter{
+  background-color: #343a40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.twitter-1{
+width: 20px;
+border-radius: 10px;
+margin-right: 19px;
+
+}
+
+.five-fie{
+  color: white;
+ 
+}
+
+.whatsapp{
+  background-color: #28a745;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.whatsapp-1{
+  margin-right: 20px;
+}
+
+
+.reddit{
+  background-color: #ff4500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+ cursor: pointer;
+}
+
+.reddit-1{
+  margin-right: 15px;
+}
+
+.telegram{
+  background-color: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.telegram-1{
+  width: 20px;
+}
+
+.facebook-1{
+  width: 20px;
+  margin-right: 20px;
+}
+
+.seven{
+  color: white;
+}
+
+.facebook{
+  cursor: pointer;
+  background-color: #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.button-container{
+  margin-top: 30px;
+}
+
+.movie-button{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 4px 12px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.series-button{
+  border: none;
+  padding: 4px 12px;
+  cursor: pointer;
+
+}
+
+.grid{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 210px 210px 210px 210px 210px 210px;
+  row-gap: 30px;
+}
+
+@media (max-width: 700px) {
+  .grid{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 210px 210px 210px 210px;
+    row-gap: 30px;
+    width: 700px;
+  }
+
+  .platform-container{
+    width: 580px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header{
+    width: 850px;
+  }
+
+  .button-container{
+    margin-left: 8px;
+  }
+
+  
+
+  
+
+  
+
+}
+
+
+
+
+@media (max-width: 500px) {
+  .grid{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 210px 210px 210px;
+    row-gap: 30px;
+    margin-left: 10px;
+  }
+
+  .button-container{
+    margin-left: 20px;
+  }
+
+  .platform-container{
+    width: 450px;
+    margin-left: 20px;
+  }
+
+  .facebook,
+  .whatsapp
+  ,.reddit,
+  .twitter,
+  .telegram{
+    padding-left: 5px;
+    padding-right: 5px;
+  
+  }
+
+  
+.search-bar-1{
+  padding: 10px 150px 10px 10px;
+  border-radius: 5px;
+  border: none;
+  flex-shrink: 0;
+}
+ 
+  .header{
+    width: 700px;
+  }
+
+ body{
+  width: 500px;
+ }
+}
+
+
+
+
+
+.movie{
+  position: relative;
+}
+
+.movie-1{
+  width: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+
+}
+
+.movie:hover{
+  opacity: 0.8;
+ }
+ 
+ .movie:hover .play-2{
+  opacity: 1;
+ }
+
+ .movie:hover .tooltip{
+  opacity: 1;
+ }
+
+ .hd{
+  position: absolute;
+  top: 12px;
+  right: 22px;
+  border-style: solid;
+  border-color: white;
+  background-color: white;
+  color: black;
+  padding: 2px;
+ }
+
+ .play-2{
+  position: absolute;
+  top: 40%;
+  left: 40%;  
+  color: black;
+  border-color:  #2977ff;;
+  padding: 7px 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 53.5px;
+  cursor: pointer;
+  opacity: 0;
+
+ }
+
+ .tooltip{
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  background-color: rgb(233, 231, 231);
+  padding: 2px;
+  border-radius: 1px;
+  opacity: 0;
+  color: black;
+ }
+
+.movie-name{
+  margin-top: 4px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+.box{
+  display: inline;
+  margin-left: 40px;
+  border-style: solid;
+  border-width: 1px;
+  color: gray;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
